@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&family=Poppins:wght@200;300;400;600&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  
+}
+
+body{
+  background-color: #ffffff;
+  font-family: 'Poppins', sans-serif;
+  background-color: #000000;
+   }
+
+.header{
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px;
+}
+.navbar{
+  width: 95%;
+  padding: 0 20px;
+}
+.navbar, .navbar-list {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
+
+.navbar .navbar-list li a{
+  color: #40251a;
+}
+
+
+.main-index{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.section-index{
+  background-color: #ffffff;
+  width: 90%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  border: 1px solid #40251a;
+  padding: 20px
+
+}
+
+.contenedor-titulo-foto{
+  width: 90%;
+  height: auto;
+  border: 1px solid red;
+  display: flex;
+  gap: 40px;
+}
+
+.item-titulos{
+  width: 55%;
+  border: 1px solid yellow;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+
+  
+}
+
+.titulo-top{
+  width: 100%;
+  height: auto;
+  border: 1px solid blue;
+  display: flex;
+  justify-content: end;
+
+}
+
+.titulo-top img{
+  width: 258px;
+  height: 200px;
+}
+
+.titulo-bottom{
+  height: auto;
+  border: 1px solid #40251a;
+  font-family: 'Oswald', sans-serif;
+  font-size: 150px;
+
+
+}
+
+.item-foto{
+  width: 35%;
+  height: 600px;
+  border: 1px solid green;
+  background-image: url(../assets/img/cafe1.jpg);
+ }
+
+.item-foto img{
+ 
+  
+}
+
+
+.section-bottom{
+width: 100%;
+border: 1px solid black;
+display: flex;
+justify-content: center;
+}
+
+.datos-bottom{
+  width: 90%;
+  border: 1px solid #40251a;
+  display: flex;
+  justify-content: space-between;
+  padding: 30px
+}
+
+
+.wsp-icono{
+  color: #40251a;
+  font-size: 28px;
+}
