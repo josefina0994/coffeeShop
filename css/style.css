@@ -19,11 +19,21 @@ body{
   
 }
 
+.body-menu{
+  background-image: url(../assets/cafe2.png);
+ 
+}
+
 a{
   text-decoration: none;
   color: #ffffff;
 }
 
+h2{
+  font-size: 4rem;
+  color: #ffffff;
+  padding: 1rem;
+}
 
 header{
   height: 100px;
@@ -68,7 +78,7 @@ header{
   font-size: 0.9rem;
 }
 
-.navbar ul li a:hover{
+.item-redes:hover, .navbar ul li a:hover{
   color: #e68541;
 }
 
@@ -164,6 +174,88 @@ button:hover{
  .about-text p{
   color: #8d827a;
  }
+
+
+ /*SECCIÓN MENÚ*/
+
+ .section-menu, 
+ .container-menu, 
+ .menu-titles,
+ .container-menu-items,
+ .items-menu,
+ .items-title-menu,
+ .price-items,
+  .img-menu{
+    border: 1px solid red;
+  }
+
+  .section-menu{
+    background-image: url(../assets/section-menu.png);
+    background-size: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    background-color: #ffffff;
+  }
+
+  .container-menu{
+    width: 100%;
+    max-width: 1200px;
+    padding: 2rem 0;
+  
+   }
+
+   .menu-titles{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: aqua;
+    text-align: center;
+    gap: 1.5rem;
+    padding: 2rem;
+   }
+
+   .menu-titles h3{
+    font-size: 2rem;
+   }
+
+   .menu-titles span{
+    width: 10%;
+    height: 5px;
+    background-color: #e68541;
+    
+   }
+
+   .container-menu-items{
+    display: flex;
+    flex-direction: column;
+    background-color: #8d827a;
+    gap: 1rem;
+   }
+  
+  .items-menu{
+    display: flex;
+    justify-content: space-between;
+  
+  }
+
+  .items-title-menu{
+    border-bottom: 1px solid #8d827a;
+    border-top: 1px solid #8d827a;
+  }
+
+  .price-items{
+    border-left: 1px solid #8d827a;
+    padding: 1rem 2rem;
+    color: #e68541;
+    font-weight: bold;
+  }
+
+
+
+
+
+ /*FIN SECCIÓN MENÚ*/
 
 
 .footer{
