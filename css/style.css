@@ -10,11 +10,9 @@
 body{
   height: 100%;
   background-image: url(../assets/cafe1.png);
-  background-position: center;
-  background-size: cover6;
-  background-attachment: fixed;
+  background-size: contain;
   background-repeat: no-repeat;
-  background-color: #261206;
+  background-color: #ffffff;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -23,6 +21,7 @@ body{
 
 a{
   text-decoration: none;
+  color: #ffffff;
 }
 
 
@@ -52,7 +51,7 @@ header{
 .item-logo{
   position: absolute;
   top: 10px;
-  left: 42%;
+  left: 44%;
 
 }
 
@@ -60,38 +59,42 @@ header{
   width: 40%;
 }
 
-.navbar ul {
+.navbar ul{
   display: flex;
   justify-content: space-between;
   gap: 20px;
   padding: 40px 20px;
   list-style: none;
- 
+  font-size: 0.9rem;
 }
 
-.header nav ul li a{
-  color: #ffffff;
-  text-decoration: none;
+.navbar ul li a:hover{
+  color: #e68541;
 }
 
 .main{
   width: 100%;
   margin-top: 6rem;
   display: flex;
+  flex-direction: column;
   justify-content: center;
 }
 
-.container-section{
+.section-title, .section-about{
   width: 100%;
-  max-width: 1200px;
-}
+  height: auto;
+  display: flex;
+  justify-content: center;
+  padding: 4rem;
+  }
 
 .container-titulos{
   width: 100%;
+  max-width: 1200px;
   display: flex;
-  justify-content: center;
+  justify-content: left;
   flex-direction: column;
-  padding: 2rem;
+  padding: 2rem 0;
 }
 
 .container-titulos p{
@@ -112,14 +115,60 @@ button{
   color: #ffffff;
   width: 10rem;
   height: 3.2rem;
-  border: 1px solid rgb(230, 133, 65);
+  border: 2px solid #e68541;
   font-weight: bold;
+  transition: 0.5s;
 }
+
+button:hover{
+  background-color: #e68541;
+}
+
+.section-about{
+  background-image: url(../assets/section.png);
+  background-size: contain;
+  background-size: 100%;
+  display: flex;
+  align-content: center;
+}
+
+.container-about{
+  width: 100%;
+  max-width: 1200px;
+  display: flex;
+  gap: 4rem;
+  margin-top: 5rem;
+}
+
+.about-text{
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 2rem;
+  justify-content: center;
+  align-content: center;
+ }
+
+ .about-text h2{
+  font-weight: 500;
+  font-size: 3rem;
+  color: #2f2721;
+ }
+
+ .about-text span{
+  background-color: #e68541;
+  width: 30%;
+  height: 3px;
+ }
+
+ .about-text p{
+  color: #8d827a;
+ }
 
 
 .footer{
   width: 100%;
-  background-color: #261206;
+  background-color: #2f2721;
   display: flex;
   justify-content: center;
   margin-top: 4rem;
@@ -133,32 +182,34 @@ button{
 
 .container-datos-footer{
   width: 100%;
-  max-width: 1200px;
   display: flex;
   justify-content: space-between;
-  gap: 5rem;
   padding: 0.5rem;
+  flex-wrap: wrap;
 }
 
 .item-datos-footer{
-  width: 20rem;
+  width: 16rem;
   text-align: center;
-  padding: 2rem;
+  padding: 1rem;
   gap: 2rem;
   color: #ffffff;
-
 }
 
 .item-datos-footer h4{
-  font-size: 1.2rem;
+  font-size: 1rem;
   padding: 1rem 0;
+}
+
+.item-datos-footer p{
+  font-size: 0.9rem;
 }
 
 .footer-copy{
   width: 100%;
   max-width: 1200px;
   height: auto;
-  border-top: 1px solid rgba(255,255,255,.1);
+  border-top: 1px solid #ffffff1a;
   display: flex;
   justify-content: center;
   padding: 2rem;
@@ -167,11 +218,11 @@ button{
 }
 
 .footer-copy a{
-  color:  rgb(230, 133, 65);
+  color:  #e68541;
 }
 
 
 .footer-icon{
   font-size: 2rem;
-  color: rgb(230, 133, 65);
+  color: #e68541;
 }
