@@ -9,8 +9,8 @@
 
 body{
   height: 100%;
-  background-image: url(../assets/cafe1.png);
-  background-size: contain;
+  background-image: url(../assets/cafefondo1.png);
+  background-size: cover;
   background-repeat: no-repeat;
   background-color: #ffffff;
   display: flex;
@@ -85,7 +85,7 @@ header{
   height: auto;
   display: flex;
   justify-content: center;
-  padding: 4rem;
+  padding: 1rem;
   }
 
 .container-titulos{
@@ -94,19 +94,19 @@ header{
   display: flex;
   justify-content: left;
   flex-direction: column;
-  padding: 2rem 0;
+  padding: 1rem;
 }
 
 .container-titulos p{
-  color: rgb(230, 133, 65);
+  color: #e68541;
   font-weight: bold;
 }
 
 .container-titulos h1{
   color: #ffffff;
   font-size: 4rem;
-  line-height: 4.5rem;
-  padding: 2rem 0;
+  line-height: 5rem;
+  padding: 0.8rem 0;
   font-weight: 600;
   }
 
